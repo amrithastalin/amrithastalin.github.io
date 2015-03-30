@@ -1056,4 +1056,7 @@ span[class*="entypo"]:before {
  margin-left: 10px;
  }
  
+ a {
+ text-decoration: none;
+ }
  

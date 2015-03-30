@@ -1,0 +1,400 @@
+.baby {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  
+  
+}
+.baby .head {
+  width: 270px;
+  height: 220px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -135px;
+  margin-top: 5px;
+  z-index: 1;
+  background: #ffd4aa;
+  border-radius: 50%;
+}
+.baby .head .ear-left {
+  background: #ffd4aa;
+  width: 25px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -20px;
+  margin-left: -15px;
+  border-radius: 70% 0 0 40%;
+}
+.baby .head .ear-right {
+  background: #ffd4aa;
+  width: 25px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -20px;
+  margin-right: -15px;
+  border-radius: 0 70% 40% 0;
+}
+.baby .head .eye {
+  width: 8px;
+  height: 20px;
+  border-radius: 50%;
+  background: #000;
+  position: absolute;
+  top: 50%;
+}
+.baby .head .eye.left {
+  left: 40%;
+}
+.baby .head .eye.right {
+  right: 40%;
+}
+.baby .head .pacifier {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -40px;
+  margin-bottom: 10px;
+  background: #1374b6;
+  border-radius: 50%;
+}
+.baby .head .pacifier:before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -12.5px;
+  margin-top: -12.5px;
+  background: #5e85b9;
+  border-radius: 50%;
+}
+.baby .head .pacifier:after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -15px;
+  margin-top: -15px;
+  top: 65%;
+  border: 3px solid #FFF;
+  border-radius: 50%;
+}
+.baby .head:after {
+  display: block;
+  content: '';
+  width: 75px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -37.5px;
+  background: #ffd4aa;
+  margin-bottom: -15px;
+  border-radius: 0 0 50% 50%;
+}
+.baby .body {
+  width: 140px;
+  height: 160px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -70px;
+  margin-top: -80px;
+  margin-top: -30px;
+  background: #6f93c8;
+}
+.baby .body:before {
+  display: block;
+  content: '';
+  width: 80px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -40px;
+  margin-top: 1px;
+  background: #FFF;
+  border-radius: 0 0 50% 50%;
+}
+.baby .body .arm {
+  width: 50px;
+  height: 130px;
+  background: #6f93c8;
+  position: absolute;
+  top: 1px;
+  border-radius: 25px 25px 0 0;
+  -webkit-transform-origin: top center;
+      -ms-transform-origin: top center;
+          transform-origin: top center;
+}
+.baby .body .arm.left {
+  left: -15px;
+  -webkit-transform: rotate(20deg) skewX(-10deg);
+      -ms-transform: rotate(20deg) skewX(-10deg);
+          transform: rotate(20deg) skewX(-10deg);
+}
+.baby .body .arm.right {
+  right: -15px;
+  -webkit-transform: rotate(-20deg) skewX(10deg);
+      -ms-transform: rotate(-20deg) skewX(10deg);
+          transform: rotate(-20deg) skewX(10deg);
+}
+.baby .body .hand {
+  width: 40px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ffd4aa;
+  position: absolute;
+  bottom: -30px;
+  left: 5px;
+}
+.baby .body .book {
+  position: absolute;
+  z-index: 1;
+  left: 150px;
+  top: 76%;
+}
+
+
+.baby .body .leg {
+  width: 68px;
+  height: 110px;
+  background: #6f93c8;
+  position: absolute;
+  bottom: -110px;
+  border-radius: 0 0 50% 50%;
+}
+.baby .body .leg.left {
+  left: 0;
+}
+.baby .body .leg.right {
+  right: 0;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+body {
+  background: #212121
+}
+
+h1 {
+  color: #f6f5f0;
+  font-family: 'Righteous', cursive;
+  text-shadow: 1px 1px #b0b0b0, 2px 2px #b0b0b0, 3px 3px #797979, 4px 4px #797979, 5px 5px #5c5c5c, 6px 6px #5c5c5c, 7px 7px #404040, 8px 8px #404040, 9px 9px #232323, 10px 10px #232323, 11px 11px #111111, 12px 12px #111111, 13px 13px #000000, 14px 14px #000000;
+  font-size: 50px;
+  line-height: 80px;
+  text-align: center;
+}
+
+span:nth-child(1) {
+  margin-left: -480px;
+}
+span:nth-child(2) {
+  color: #e8d716;
+  font-size: 120px;
+  text-shadow: 1px 1px #d3c206, 2px 2px #d3c206, 3px 3px #b3a400, 4px 4px #b3a400, 5px 5px #968a00, 6px 6px #968a00, 7px 7px #605803, 8px 8px #605803, 9px 9px #393400, 10px 10px #393400, 11px 11px #161401, 12px 12px #161401, 13px 13px #000000, 14px 14px #000000;
+}
+
+span:nth-child(2) {
+  margin-left: -15px;
+}
+
+
+
+.shiny{
+  color: #F5C21B;
+  background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 13em;
+  font-weight: 900;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.shiny::before
+{
+	background-position: -180px;
+	-webkit-animation: flare 5s infinite;
+  -webkit-animation-timing-function: linear;
+  background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  content: "YOU";
+  color: #FFF;
+  display: block;
+  padding-right: 140px;
+  position: absolute;
+}
+
+.shiny::after
+{
+  content: "YOU";
+  color: #FFF;
+  display: block;
+  position: absolute;
+  text-shadow: 0 1px #6E4414, 0 2px #6E4414, 0 3px #6E4414, 0 4px #6E4414, 0 5px #6E4414, 0 6px #6E4414, 0 7px #6E4414, 0 8px #6E4414, 0 9px #6E4414, 0 10px #6E4414;
+  top: 0;
+  z-index: -1;
+}
+
+.inner-shiny::after, .inner-shiny::before
+{
+	-webkit-animation: sparkle 5s infinite;
+	-webkit-animation-timing-function: linear;
+	background: #FFF;
+	border-radius: 100%;
+	box-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #FFF, 0 0 25px #FFF, 0 0 30px #FFF, 0 0 35px #FFF;
+	content: "YOU";
+	display: block;
+	height: 10px;
+	opacity: 0.7;
+	position: absolute;
+	width: 10px;
+}
+
+.inner-shiny::before
+{
+	-webkit-animation-delay: 0.2s;
+	height: 7px;
+	left: 0.12em;
+	top: 0.8em;
+	width: 7px;
+	content: "YOU";
+}
+
+.inner-shiny::after
+{
+  top: 0.32em;
+  right: -5px;
+}
+
+@-webkit-keyframes flare
+{
+  0%   { background-position: -180px; }
+  30%  { background-position: 500px; }
+  100% { background-position: 500px; }
+}
+
+@-webkit-keyframes sparkle
+{
+  0%   { opacity: 0; }
+  30%  { opacity: 0; }
+  40%  { opacity: 0.8; }
+  60%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.you {
+
+width : 20%;
+height: 25%;
+left: 0;
+right:0;
+top: 0;
+bottom: 0;
+margin-left: 65%;
+margin-top: 35%;
+}
+
+
+
+.beatingHeart{
+  width:50px;
+  overflow:hidden;
+  margin:100px auto;
+  margin-top: 40px;
+}
+
+.beatingHeart .heart {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    opacity: 0.6;
+    -webkit-animation: beat 3.0s infinite ease-in-out;
+}
+.heart:before , .heart:after {
+    position: absolute;
+    content: "";
+    left: 25px;
+    top: 0;
+    width: 25px;
+    height: 40px;
+    background: #FF69B4;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+
+.fushiaHeart:before , .fushiaHeart:after
+{
+  background: #ff1d8e;
+}
+.pinkHeart:before , .pinkHeart:after{
+  background: #FF0080;
+}
+
+.heart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+.beatingHeart .heart2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.beatingHeart .heart3 {
+  -webkit-animation-delay: -1.5s;
+  animation-delay: -1.5s;
+}
+
+.beatingHeart .heart4 {
+  -webkit-animation-delay: -2.0s;
+  animation-delay: -2.0s;
+}
+
+.beatingHeart .heart5 {
+  -webkit-animation-delay: -2.5s;
+  animation-delay: -2.5s;
+}
+
+@-webkit-keyframes beat {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
