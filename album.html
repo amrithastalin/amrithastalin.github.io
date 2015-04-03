@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <title>Thadiyappanunni</title>
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="album.css"/>
+  
+  </head>
+  <body>
+
+  <div class="aaron">
+    <div><figure><img src="img/1.jpg" alt="The Pulpit Rock width="480" height="640"><figcaption>1</figcaption></figure></div>
+	<div><figure><img src="img/2.jpg" alt="The Pulpit Rock width="480" height="640"><figcaption>2</figcaption></figure></div>
+	<div><figure><img src="img/3.jpg" alt="The Pulpit Rock width="480" height="640"><figcaption>3</figcaption></figure></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.aaron').slick({
+        autoplay: true,
+		infinite: true,
+		dots: true,
+		autoplaySpeed: 2000,
+		adaptiveHeight: true,
+      });
+    });
+  </script>
+
+  </body>
+</html>
